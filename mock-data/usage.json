@@ -1,0 +1,23 @@
+{
+  "services": [
+    {
+      "name": "VM1",
+      "cpu_usage": 54.79,
+      "ram_gb": 4,
+      "hours": 1,
+      "cost": 0.27
+    },
+    {
+      "name": "VM2",
+      "cpu_usage": 71.48,
+      "ram_gb": 8,
+      "hours": 1,
+      "cost": 0.42
+    },
+    {
+      "name": "Storage1",
+      "size_gb": 290,
+      "cost": 0.02
+    }
+  ]
+}
