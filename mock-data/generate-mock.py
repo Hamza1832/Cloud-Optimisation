@@ -2,7 +2,7 @@ import json
 import random
 import time
 
-FILE_PATH = "mock-data/usage.json"
+FILE_PATH = "usage.json"
 
 def generate_usage():
     services = [
@@ -34,7 +34,7 @@ def main():
         with open(FILE_PATH, "w") as f:
             json.dump(usage_data, f, indent=2)
         print(f"Updated {FILE_PATH}")
-        time.sleep(5)  # update every 5 seconds
+        time.sleep(30)  # update every 30 seconds
 
 if __name__ == "__main__":
     main()
